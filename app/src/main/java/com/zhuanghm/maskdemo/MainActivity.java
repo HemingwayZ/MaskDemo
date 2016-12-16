@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 //       ;
+
+        Bitmap foreBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
+        Bitmap backBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.book_shadow);
+
+//        Canvas canvas = new Canvas(backBitmap);
+//        Paint paint = new Paint();
+//        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+//        canvas.drawBitmap(foreBitmap, 0, 0, paint);
     }
 
     /**
